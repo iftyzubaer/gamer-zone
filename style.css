@@ -1,0 +1,47 @@
+/* General style */
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* navbar */
+nav {
+    display: flex;
+    justify-content: space-around;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.nav-box > ul, .nav-box, .nav-icon-box {
+    display: flex;
+    align-items: center;
+}
+
+.menu li, .nav-icon-box p {
+    list-style: none;
+}
+
+.menu li a, .nav-icon-box a {
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.nav-box > ul, .nav-box {
+    gap: 2rem;
+}
+
+.nav-icon-box {
+    gap: 1.5rem;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 0.3rem 1.5rem;
+}
+
+.nav-box h2 {
+    font-size: 2.8125rem;
+    font-weight: 700;
+}
+
+.nav-box span {
+    color: #FF42A5;
+}
