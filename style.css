@@ -203,3 +203,24 @@ nav {
     justify-content: center;
     gap: 1.5rem;
 }
+
+/* Play Instant Style */
+.play-instant {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.play-instant-title {
+    text-align: right;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.play-instant-para {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+}
