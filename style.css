@@ -208,7 +208,6 @@ nav {
 .play-instant {
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 120px;
 }
 
@@ -216,6 +215,8 @@ nav {
     text-align: right;
     font-size: 2.5rem;
     font-weight: 700;
+    margin-top: 200px;
+    color: #F948B2;
 }
 
 .play-instant-para {
@@ -223,4 +224,16 @@ nav {
     text-align: right;
     font-size: 18px;
     font-weight: 400;
+}
+.play-instant-big-img {
+    width: 80%;
+}
+
+.play-instant-mini-img {
+    position: relative;
+    bottom: 150px;
+    right: 100px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    width: 35%;
 }
