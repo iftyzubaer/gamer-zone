@@ -208,21 +208,21 @@ nav {
 .play-instant {
     display: flex;
     justify-content: center;
-    gap: 120px;
+    gap: 7.5rem;
 }
 
 .play-instant-title {
     text-align: right;
     font-size: 2.5rem;
     font-weight: 700;
-    margin-top: 200px;
+    margin-top: 12.5rem;
     color: #F948B2;
 }
 
 .play-instant-para {
     color: #534C64;
     text-align: right;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
 }
 .play-instant-big-img {
@@ -231,8 +231,8 @@ nav {
 
 .play-instant-mini-img {
     position: relative;
-    bottom: 150px;
-    right: 100px;
+    bottom: 13.125rem;
+    right: 6.25rem;
     margin-bottom: 0;
     padding-bottom: 0;
     width: 35%;
@@ -242,19 +242,19 @@ nav {
 .play-online-games {
     display: flex;
     justify-content: center;
-    gap: 120px;
+    gap: 7.5rem;
 }
 
 .play-online-games-title {
     font-size: 2.5rem;
     font-weight: 700;
-    margin-top: 200px;
+    margin-top: 12.5rem;
     color: #F948B2;
 }
 
 .play-online-games-para {
     color: #534C64;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
 }
 .play-online-games-big-img {
@@ -263,8 +263,8 @@ nav {
 
 .play-online-games-mini-img {
     position: relative;
-    bottom: 150px;
-    left: 400px;
+    bottom: 13.125rem;
+    left: 25rem;
     margin-bottom: 0;
     padding-bottom: 0;
     width: 35%;
@@ -274,7 +274,7 @@ nav {
 .careers {
     background-color: #F948B2;
     display: flex;
-    padding-left: 100px;
+    padding-left: 6.25rem;
 }
 
 .careers img {
@@ -283,87 +283,87 @@ nav {
 
 .careers-title {
     color: #FFF;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
 }
 
 .careers-para {
     color: #FFF;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
 }
 
 .table {
     display: flex;
-    gap: 50px;
+    gap: 3.125rem;
 }
 
 .table h5 {
     color: #FFF;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 600;
 }
 
 .table p {
     color: #FFF;
     text-align: right;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
-    line-height: 23px;
+    line-height: 1.4375rem;
 }
 
 .positions {
-    border-radius: 48px;
+    border-radius: 3rem;
     background: #FFF;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 600;
     color: #FF42A5;
-    padding: 21px 40px;
+    padding: 1.3125rem 2.5rem;
     border: none;
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
 }
 
 /* Games Button */
 .games-btn {
     display: flex;
     justify-content: center;
-    gap: 27px;
+    gap: 1.6875rem;
     flex-wrap: wrap;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 6.25rem;
+    margin-bottom: 6.25rem;
 }
 .games-btn button{
     display: flex;
     align-items: center;
-    gap: 10px;
-    border-radius: 50px;
+    gap: 0.625rem;
+    border-radius: 3.125rem;
     background: #FFF;
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem;
     border: #FFF;
     transition: 0.5s;
 }
 
 .gm-btn:hover {
-    border: 1.5px solid #FF42A5;
+    border: 0.09375rem solid #FF42A5;
 }
 
 /* Footer Style */
 footer {
     background-color: #0B0223;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 6.25rem;
 }
 
 .footer-logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .footer-logo h3 {
     color: #FFF;
-    font-size: 45px;
+    font-size: 2.8125rem;
     font-weight: 700;
 }
 
@@ -373,14 +373,14 @@ footer {
 
 .services > li {
     color: #FFF;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 600;
     list-style: none;
 }
 
 .policy > li {
     color: rgba(255, 255, 255, 0.60);
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 500;
     list-style: none;
 }
@@ -388,21 +388,21 @@ footer {
 .services, .policy  {
     display: flex;
     justify-content: center;
-    gap: 60px;
+    gap: 3.75rem;
 }
 
 .icons {
-    margin-top: 50px;
-    margin-bottom: 70px;
+    margin-top: 3.125rem;
+    margin-bottom: 4.375rem;
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 2.5rem;
 }
 
 .copyright {
     color: rgba(255, 255, 255, 0.60);
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 500;
-    padding-top: 18px;
-    padding-bottom: 100px;
+    padding-top: 1.125rem;
+    padding-bottom: 6.25rem;
 }
