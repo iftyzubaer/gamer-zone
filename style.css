@@ -406,3 +406,77 @@ footer {
     padding-top: 1.125rem;
     padding-bottom: 6.25rem;
 }
+
+@media screen and (max-width: 576px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    .nav-box > ul, .nav-box, .gamer, .games-card-container, .careers, .play-instant {
+        flex-direction: column;
+    }
+
+    .banner, .play-online-games {
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+
+    .gamer{
+        text-align: center;
+    }
+
+    .games-card p {
+        text-align: center;
+    }
+
+    .careers {
+        max-width: 100%;
+    }
+
+    .careers img{
+        width: 100%;
+    }
+
+    .games-btn, .services, .icons {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .policy {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .play-instant {
+        text-align: center;
+        gap: 5rem;
+    }
+
+    .play-instant h3, .play-instant p {
+        margin-top: 0rem;
+        text-align: center;
+    }
+
+    .play-instant-mini-img {
+        bottom: 7rem;
+        right: 10rem;
+    }
+
+    .play-online-games {
+        text-align: center;
+        gap: 5rem;
+    }
+
+    .play-online-games h3, .play-online-games p {
+        margin-top: 0rem;
+        text-align: center;
+    }
+
+    .play-online-games-mini-img {
+        bottom: 7rem;
+        left: 10rem;
+    }
+}
