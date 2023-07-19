@@ -269,3 +269,55 @@ nav {
     padding-bottom: 0;
     width: 35%;
 }
+
+/* Careers Style */
+.careers {
+    background-color: #F948B2;
+    display: flex;
+    padding-left: 100px;
+}
+
+.careers img {
+    width: 50%;
+}
+
+.careers-title {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.careers-para {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.table {
+    display: flex;
+    gap: 50px;
+}
+
+.table h5 {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.table p {
+    color: #FFF;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.positions {
+    border-radius: 48px;
+    background: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FF42A5;
+    padding: 21px 40px;
+    border: none;
+}
