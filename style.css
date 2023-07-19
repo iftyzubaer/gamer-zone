@@ -346,3 +346,63 @@ nav {
 .gm-btn:hover {
     border: 1.5px solid #FF42A5;
 }
+
+/* Footer Style */
+footer {
+    background-color: #0B0223;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-logo h3 {
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-logo span {
+    color: #FF42A5;
+}
+
+.services > li {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    list-style: none;
+}
+
+.policy > li {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+    font-weight: 500;
+    list-style: none;
+}
+
+.services, .policy  {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.icons {
+    margin-top: 50px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 12px;
+    font-weight: 500;
+    padding-top: 18px;
+    padding-bottom: 100px;
+}
