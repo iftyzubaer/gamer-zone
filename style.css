@@ -167,16 +167,13 @@ nav {
     text-align: center;
     margin-bottom: 7.5rem;
 }
+
 .online-games h3 {
     color: #0B0223;
     font-size: 2.5rem;
     font-weight: 700;
     margin-top: 7.5rem;
     margin-bottom: 1rem;
-}
-
-.online-games span {
-    color: #F948B2;
 }
 
 .online-games-para {
@@ -202,6 +199,33 @@ nav {
     display: flex;
     justify-content: center;
     gap: 1.5rem;
+}
+
+.play {
+    color: #FF42A5;
+}
+
+.games-card {
+    position: relative;
+}
+
+.play {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    width: 100%;
+    height: 78%;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: opacity 0.5s;
+}
+
+.games-card:hover .play{
+    opacity: 1;
 }
 
 /* Play Instant Style */
@@ -345,6 +369,7 @@ nav {
 
 .gm-btn:hover {
     border: 0.09375rem solid #FF42A5;
+    color: #FF42A5;
 }
 
 /* Footer Style */
