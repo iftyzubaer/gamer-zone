@@ -237,3 +237,35 @@ nav {
     padding-bottom: 0;
     width: 35%;
 }
+
+/* Play Online Games Style */
+.play-online-games {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+
+.play-online-games-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 200px;
+    color: #F948B2;
+}
+
+.play-online-games-para {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+.play-online-games-big-img {
+    width: 80%;
+}
+
+.play-online-games-mini-img {
+    position: relative;
+    bottom: 150px;
+    left: 400px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    width: 35%;
+}
